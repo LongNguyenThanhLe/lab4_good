@@ -15,12 +15,12 @@ You will:
 ## ✍️ Branch Summaries
 
 - `main`: Original story starter
-- `hero-path`: _[Describe your changes here]_
-- `villain-path`: _[Describe your changes here]_
+- `hero-path`: dragon scene
+- `villain-path`: robbing a squirrel
 
 ## ✅ Final Checklist
 
-- [ ] At least 3 branches (`main`, `hero-path`, `villain-path`)
-- [ ] Each branch has its own unique story version
-- [ ] At least 2 commits per branch
-- [ ] Changes are pushed to GitHub from EC2 or local
+- [x] At least 3 branches (`main`, `hero-path`, `villain-path`)
+- [x] Each branch has its own unique story version
+- [x] At least 2 commits per branch
+- [x] Changes are pushed to GitHub from EC2 or local
