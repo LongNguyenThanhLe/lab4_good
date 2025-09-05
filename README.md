@@ -12,13 +12,13 @@ You will:
 3. Commit and push all changes to GitHub
 4. Write a short summary of each branch here
 
-## ✍️ Branch Summaries
+## Branch Summaries
 
 - `main`: Original story starter
 - `hero-path`: _[Describe your changes here]_
 - `villain-path`: _[Describe your changes here]_
 
-## ✅ Final Checklist
+## Final Checklist
 
 - [ ] At least 3 branches (`main`, `hero-path`, `villain-path`)
 - [ ] Each branch has its own unique story version
