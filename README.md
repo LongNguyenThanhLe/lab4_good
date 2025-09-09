@@ -27,5 +27,5 @@ You will:
 - [ ] Changes are pushed to GitHub from EC2 or local
 
 ## Summary
-
-summary hero
+- Hero: summary hero
+- Villain: villain path
