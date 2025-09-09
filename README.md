@@ -7,6 +7,7 @@ This repo contains a simple "choose your own adventure" style Python story. You 
 ## Your Task
 
 You will:
+
 1. Create two new branches: `hero-path` and `villain-path`
 2. Make different story twists in each branch
 3. Commit and push all changes to GitHub
@@ -24,3 +25,7 @@ You will:
 - [ ] Each branch has its own unique story version
 - [ ] At least 2 commits per branch
 - [ ] Changes are pushed to GitHub from EC2 or local
+
+## Summary
+
+summary hero
