@@ -1,6 +1,21 @@
 Branches in this repo (with details):
+- origin
+  SHA: 27e1af9e648a26cb37cafda72d9c75b0a24b647e
+  Commits: 23
+  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
+  Last Commit Date: 2025-09-10T14:22:49-04:00
+- hero-path
+  SHA: f69d165dad169f40b9e89fd4becc8a37c989c509
+  Commits: 13
+  Last Author: Long Le <tlenguye@emich.edu>
+  Last Commit Date: 2025-09-09T17:17:09-04:00
 - main
-   SHA: 425c3eb569ad633b87442e6398b04e53c5c5f3cf
-   Commits: 21
-   Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
-   Last Commit Date: 2025-09-10T14:13:42-04:00
+  SHA: 27e1af9e648a26cb37cafda72d9c75b0a24b647e
+  Commits: 23
+  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
+  Last Commit Date: 2025-09-10T14:22:49-04:00
+- villain-path
+  SHA: c2efd2da973a83447305897fccfa8a052c38d1d4
+  Commits: 19
+  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
+  Last Commit Date: 2025-09-09T17:34:17-04:00
