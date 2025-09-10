@@ -4,44 +4,41 @@ on:
   push
 
 permissions:
-  contents: write
+  contents: write  
 
 jobs:
   generate-branch-info:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout all branches
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          ref: main
 
       - name: Fetch all branches
-        run: |
-          git fetch --all
+        run: git fetch --all
 
-      - name: Generate detailed branch-info.txt
+      - name: Generate branch-info.txt
         run: |
           echo "Branches in this repo (with details):" > branch-info.txt
-          for branch in $(git for-each-ref --format='%(refname:short)' refs/heads/); do
-            sha=$(git rev-parse "$branch")
-            commits=$(git rev-list --count "$branch")
-            author=$(git log -1 --pretty=format:"%an <%ae>" "$branch")
-            date=$(git log -1 --pretty=format:"%ad" --date=iso-strict "$branch")
-
-            echo "- $branch" >> branch-info.txt
-            echo "   SHA: $sha" >> branch-info.txt
-            echo "   Commits: $commits" >> branch-info.txt
-            echo "   Last Author: $author" >> branch-info.txt
-            echo "   Last Commit Date: $date" >> branch-info.txt
+          for branch in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/); do
+            bname=$(echo $branch | sed 's|origin/||')
+            echo "- $bname" >> branch-info.txt
+            sha=$(git rev-parse $branch)
+            commits=$(git rev-list --count $branch)
+            author=$(git log -1 --pretty=format:"%an <%ae>" $branch)
+            date=$(git log -1 --pretty=format:"%ad" --date=iso-strict $branch)
+            echo "  SHA: $sha" >> branch-info.txt
+            echo "  Commits: $commits" >> branch-info.txt
+            echo "  Last Author: $author" >> branch-info.txt
+            echo "  Last Commit Date: $date" >> branch-info.txt
           done
-          echo "✅ Contents of branch-info.txt:"
           cat branch-info.txt
 
-      - name: Commit and push branch-info.txt to main branch
+      - name: Commit and push branch-info.txt
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add branch-info.txt
           git commit -m "Auto-update branch-info.txt" || echo "No changes to commit"
-          git push origin main
+          git push origin HEAD:main
