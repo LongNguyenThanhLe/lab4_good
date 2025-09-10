@@ -1,21 +1,29 @@
 Branches in this repo (with details):
-- origin
-  SHA: 27e1af9e648a26cb37cafda72d9c75b0a24b647e
-  Commits: 23
-  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
-  Last Commit Date: 2025-09-10T14:22:49-04:00
+
 - hero-path
   SHA: f69d165dad169f40b9e89fd4becc8a37c989c509
   Commits: 13
-  Last Author: Long Le <tlenguye@emich.edu>
-  Last Commit Date: 2025-09-09T17:17:09-04:00
+  Recent commits:
+    f69d165 | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:17:09 2025 -0400 | Summarize hero path in README.md
+    eea86cd | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:16:33 2025 -0400 | Add prompt for player action after finding the sword in left path
+    99fea3e | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:15:48 2025 -0400 | Add choice prompt for sword in left path
+    989d461 | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:15:16 2025 -0400 | Added a center path.
+    17f5207 | Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Thu Sep 4 21:49:54 2025 -0400 | Revert "Added a center path."
 - main
-  SHA: 27e1af9e648a26cb37cafda72d9c75b0a24b647e
-  Commits: 23
-  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
-  Last Commit Date: 2025-09-10T14:22:49-04:00
+  SHA: eeec005d03ea6d2ab593a5800ddf6c6d0f554c75
+  Commits: 25
+  Recent commits:
+    eeec005 | LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com> | Wed Sep 10 14:32:14 2025 -0400 | Update branch-info.yml for better branch handling
+    1dfea56 | GitHub Actions <actions@github.com> | Wed Sep 10 18:22:58 2025 +0000 | Auto-update branch-info.txt
+    27e1af9 | LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com> | Wed Sep 10 14:22:49 2025 -0400 | Refactor branch-info.yml for improved branch info generation
+    e74e86a | GitHub Actions <actions@github.com> | Wed Sep 10 18:13:53 2025 +0000 | Auto-update branch-info.txt
+    425c3eb | LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com> | Wed Sep 10 14:13:42 2025 -0400 | Add workflow to generate and push branch info
 - villain-path
   SHA: c2efd2da973a83447305897fccfa8a052c38d1d4
   Commits: 19
-  Last Author: LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com>
-  Last Commit Date: 2025-09-09T17:34:17-04:00
+  Recent commits:
+    c2efd2d | LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com> | Tue Sep 9 17:34:17 2025 -0400 | Merge branch 'main' into villain-path
+    291a8c2 | Long Nguyen Thanh Le <tlenguye@emich.edu> | Tue Sep 9 21:29:26 2025 +0000 | add villain path description to README
+    876da7a | LongNguyenThanhLe <149942804+LongNguyenThanhLe@users.noreply.github.com> | Tue Sep 9 17:17:40 2025 -0400 | Merge pull request #2 from LongNguyenThanhLe/hero-path
+    f69d165 | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:17:09 2025 -0400 | Summarize hero path in README.md
+    eea86cd | Long Le <tlenguye@emich.edu> | Tue Sep 9 17:16:33 2025 -0400 | Add prompt for player action after finding the sword in left path
